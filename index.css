@@ -1,0 +1,26 @@
+.nav-bar 
+{
+    display: flex;
+    justify-content: left;
+    width: 75%;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-bar > a
+{
+    padding: 10px;
+    color: darkcyan;
+    width: 8vw;
+    height: 50%;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.434);
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-color: darkcyan;
+    background-color: lightcyan;
+}

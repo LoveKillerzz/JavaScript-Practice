@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Stina TEINF21">
+    <meta name="describtion" content="Summering av tal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summering av tal med JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <a class="active" href="startsida.html">Startsida</a>
+        <a class="upgft nr2" href="upgft nr2.html">Uppgift Nr.2</a>
+        <a class="upgft nr3" href="upgft nr3.html">Uppgift Nr.3</a>
+    </div>
+  
+    
+<div id="resultat"></div>
+
+<script>
+    function summeraTal()
+    {
+        let summa = 0;
+        for(let i =1; i<=1000; i++)
+        {
+            summa += i;
+        }
+        return summa;
+    }
+
+    const resultatDiv = document.getElementById("resultat");
+    resultatDiv.textContent = "Summan av talen från 1 till 1000 är: " + summeraTal();
+
+</script>
+
+
+
+
+
+</body>
